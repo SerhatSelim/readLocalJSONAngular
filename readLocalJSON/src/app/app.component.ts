@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { JsonFileServiceService } from './json-file-service.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'readLocalJSON';
+  /**
+   *
+   */
+  constructor(private documentationService: JsonFileServiceService) {
+    this.documentationService.getDocumentationData().subscribe(data => {
+      console.log(data);
+  });
+  }
 }

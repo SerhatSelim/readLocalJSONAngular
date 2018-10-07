@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+    "icon": "public",
+    "title": "1",
+    "subtitles": [{
+      "title": "deneme title1",
+      "body": "deneme body1",
+      "imgPath":"/src/assets/img/ts"
+    },
+    {
+      "title": "deneme title1.1",
+      "body": "deneme body1.1",
+      "imgPath":"/src/assets/img/ts"
+    }
+  ]
+  },
+  {
+    "icon": "public",
+    "title": "2",
+    "subtitles": [{
+      "title": "deneme title2",
+      "body": "deneme body2",
+      "imgPath":"/src/assets/img/rxjs"
+    },
+    {
+      "title": "deneme title2.1",
+      "body": "deneme body2.1",
+      "imgPath":"/src/assets/img/rxjs"
+    }]
+  },
+  {
+    "icon": "public",
+    "title": "3",
+    "subtitles": [{
+      "title": "deneme title3",
+      "body": "deneme body3",
+      "imgPath":"/src/assets/img/angular"
+
+    },
+    {
+      "title": "deneme title3.1",
+      "body": "deneme body3.1",
+      "imgPath":"/src/assets/img/angular"
+
+    }]
+  }
+]
+}
