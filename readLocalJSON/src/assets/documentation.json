@@ -1,12 +1,13 @@
 {
   "data": [
     {
+    "id": "0",
     "icon": "public",
     "title": "1",
     "subtitles": [{
       "title": "deneme title1",
       "body": "deneme body1",
-      "imgPath":"/src/assets/img/ts"
+      "imgPath":"./assets/img/ts.png"
     },
     {
       "title": "deneme title1.1",
@@ -16,6 +17,7 @@
   ]
   },
   {
+    "id": "1",
     "icon": "public",
     "title": "2",
     "subtitles": [{
@@ -30,6 +32,7 @@
     }]
   },
   {
+    "id": "2",
     "icon": "public",
     "title": "3",
     "subtitles": [{
